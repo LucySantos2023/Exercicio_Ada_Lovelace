@@ -4,8 +4,23 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Exemplo_Fixed_Position</title>
+        <title>Exercicio_10_Ada_Lovelace</title>
         <style>
+
+            div.conteiner {
+                width: 800px;
+                background-color: azure;
+                height: auto;
+            }
+
+            .flutuante {
+                background-color:gray;
+                float: right;
+                width: 350px;
+                height: 500px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+            }
 
             body {
                 background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/0f/Ada_lovelace.jpg);
@@ -13,25 +28,22 @@
                 background-size: contain;
             }
 
-                #corpo {
-                    height: 1000px;
-                    width: 100px;
-                }
-
-                #fixo {
-                    position: fixed;
-                    top: 20px;
-                    right: 30px;
-                    width: 150px;
-                    height: 150px;
-                    color: red;
-                    text-align: center;
-                }
+                                   
 
          </style>
     </head>
     <body>
-        <div id="corpo"></div>
-        <div id="fixo">ESTOU FIXO AQUI</div>
+
+        <div class="conteiner">
+            <div class="flutuante">
+            <h1>Quem foi Ada Lovelace?</h1>
+                
+                <p>Ada Lovelace (Ada Augusta King, Condessa de Lovelace), que vive entre 1815 e 1852, é conhecida como a primeira programadora de computador do mundo. </br> 
+                Isso porque ela elaborou planos de como uma máquina chamada Analytical Engine deveria realizar cálculos. A Analytical Engine foi inventada por seu amigo matemático Charles Babbage – e é considerada o primeiro computador. </br>
+                Segundo especialistas, os aplicativos de Lovelace se relacionam em grande parte à forma como os computadores são usados hoje. </br>         
+                Sua contribuição foi tão impactante que a programadora é lembrada anualmente no Dia Ada Lovelace, comemorado na segunda terça-feira de outubro. O dia internacional celebra as mulheres nos campos da ciência, tecnologia, engenharia e matemática (STEM).</br>
+            </p>
+            </div>
+               
     </body>
-    </html>               
+    </html>                             
